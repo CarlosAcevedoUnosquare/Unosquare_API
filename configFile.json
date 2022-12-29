@@ -1,0 +1,26 @@
+{
+	"AMAZON_URL": "https://www.amazon.com/",
+	"reqres_url": "https://reqres.in/api",
+	"reqres_partial_url": "https://reqres.in",
+	"userOne": "UserOneHere",
+	"jobUserOne": "UserOneJob",
+	"userOneEmail": "eve.holt@reqres.in",
+	"userOnePwd": "pistol",
+	"postPassword": "cityslicka",
+	"userTwo": "UserTwoHere",
+	"jobUserTwo": "UserTwoJob",
+	"first_name": "Janet",
+	"AMAZON_MX_URL": "https://www.amazon.com.mx/",
+	"amazon_mx_email": "CATestingHubb@gmail.com",
+	"amazon_mx_pwd": "password123.",
+	"amazon_mx_product1": "Samsung Galaxy S9 64GB",
+	"amazon_mx_product2": "Alienware Aw3418DW",
+	"SearchOne": "Galaxy Note 20",
+    "SearchTwo": "Galaxy S20 FE 5G",
+    "Author": "Carlos Acevedo",
+    "Company List": [
+        "Compnay: Example one",
+        "Compnay: Example two",
+        "Compnay: Example three"
+    ]
+}

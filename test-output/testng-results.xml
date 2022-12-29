@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Sucess 200 validation]]>
+    </line>
+    <line>
+      <![CDATA[Sucess 200 validation]]>
+    </line>
+    <line>
+      <![CDATA[Sucess 200 validation]]>
+    </line>
+    <line>
+      <![CDATA[Sucess 200 validation]]>
+    </line>
+    <line>
+      <![CDATA[Request parameters: {"name":"UserOneHere","job":"UserOneJob"}]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {"name":"UserOneHere","job":"UserOneJob","id":"159","createdAt":"2022-12-29T19:26:00.942Z"}]]>
+    </line>
+    <line>
+      <![CDATA[Status code: 201]]>
+    </line>
+    <line>
+      <![CDATA[URL used for this script: [https://reqres.in/api/users]]]>
+    </line>
+    <line>
+      <![CDATA[Request parameters: {"password":"pistol","email":"eve.holt@reqres.in"}]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {"id":4,"token":"QpwL5tke4Pnpja7X4"}]]>
+    </line>
+    <line>
+      <![CDATA[Status code: 200]]>
+    </line>
+    <line>
+      <![CDATA[URL used for this script: [https://reqres.in/api/register]]]>
+    </line>
+    <line>
+      <![CDATA[Request parameters: {"email":"eve.holt@reqres.in"}]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {"error":"Missing password"}]]>
+    </line>
+    <line>
+      <![CDATA[Expected code for this test is 400.]]>
+    </line>
+    <line>
+      <![CDATA[Status code: 400]]>
+    </line>
+    <line>
+      <![CDATA[URL used for this script: [https://reqres.in/api/register]]]>
+    </line>
+    <line>
+      <![CDATA[Request parameters: {"password":"cityslicka","email":"eve.holt@reqres.in"}]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {"token":"QpwL5tke4Pnpja7X4"}]]>
+    </line>
+    <line>
+      <![CDATA[Status code: 200]]>
+    </line>
+    <line>
+      <![CDATA[URL used for this script: [https://reqres.in/api/login]]]>
+    </line>
+    <line>
+      <![CDATA[Request parameters: {"name":"UserOneHere","job":"UserOneJob"}]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {"name":"UserOneHere","job":"UserOneJob","updatedAt":"2022-12-29T19:26:03.295Z"}]]>
+    </line>
+    <line>
+      <![CDATA[Status code: 200]]>
+    </line>
+    <line>
+      <![CDATA[URL used for this script: [https://reqres.in/api]]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-29T13:28:26 CST" name="Default suite" finished-at="2022-12-29T13:28:37 CST" duration-ms="10659">
+    <groups>
+    </groups>
+    <test started-at="2022-12-29T13:28:26 CST" name="Default test" finished-at="2022-12-29T13:28:37 CST" duration-ms="10659">
+      <class name="com.unosquare.APiCalls">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:26 CST" name="beforeMethod" finished-at="2022-12-29T13:28:26 CST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getCall1()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:26 CST" name="getCall1" finished-at="2022-12-29T13:28:31 CST" duration-ms="4979" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucess 200 validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCall1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:31 CST" name="beforeMethod" finished-at="2022-12-29T13:28:31 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getCall2()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:31 CST" name="getCall2" finished-at="2022-12-29T13:28:32 CST" duration-ms="756" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucess 200 validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCall2 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:32 CST" name="beforeMethod" finished-at="2022-12-29T13:28:32 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getCall3()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:32 CST" name="getCall3" finished-at="2022-12-29T13:28:33 CST" duration-ms="706" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucess 200 validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCall3 -->
+        <test-method signature="getCall4()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:33 CST" name="getCall4" finished-at="2022-12-29T13:28:34 CST" duration-ms="1058" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucess 200 validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCall4 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:33 CST" name="beforeMethod" finished-at="2022-12-29T13:28:33 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="postCall1Create()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:34 CST" name="postCall1Create" finished-at="2022-12-29T13:28:34 CST" duration-ms="733" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Request parameters: {"name":"UserOneHere","job":"UserOneJob"}]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {"name":"UserOneHere","job":"UserOneJob","id":"159","createdAt":"2022-12-29T19:26:00.942Z"}]]>
+            </line>
+            <line>
+              <![CDATA[Status code: 201]]>
+            </line>
+            <line>
+              <![CDATA[URL used for this script: [https://reqres.in/api/users]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCall1Create -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:34 CST" name="beforeMethod" finished-at="2022-12-29T13:28:34 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:34 CST" name="beforeMethod" finished-at="2022-12-29T13:28:34 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="postCall2Register()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:34 CST" name="postCall2Register" finished-at="2022-12-29T13:28:35 CST" duration-ms="665" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Request parameters: {"password":"pistol","email":"eve.holt@reqres.in"}]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {"id":4,"token":"QpwL5tke4Pnpja7X4"}]]>
+            </line>
+            <line>
+              <![CDATA[Status code: 200]]>
+            </line>
+            <line>
+              <![CDATA[URL used for this script: [https://reqres.in/api/register]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCall2Register -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:35 CST" name="beforeMethod" finished-at="2022-12-29T13:28:35 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="postCall3RegisterFailed()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:35 CST" name="postCall3RegisterFailed" finished-at="2022-12-29T13:28:36 CST" duration-ms="601" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Request parameters: {"email":"eve.holt@reqres.in"}]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {"error":"Missing password"}]]>
+            </line>
+            <line>
+              <![CDATA[Expected code for this test is 400.]]>
+            </line>
+            <line>
+              <![CDATA[Status code: 400]]>
+            </line>
+            <line>
+              <![CDATA[URL used for this script: [https://reqres.in/api/register]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCall3RegisterFailed -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:36 CST" name="beforeMethod" finished-at="2022-12-29T13:28:36 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="postCall4Login()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:36 CST" name="postCall4Login" finished-at="2022-12-29T13:28:36 CST" duration-ms="511" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Request parameters: {"password":"cityslicka","email":"eve.holt@reqres.in"}]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {"token":"QpwL5tke4Pnpja7X4"}]]>
+            </line>
+            <line>
+              <![CDATA[Status code: 200]]>
+            </line>
+            <line>
+              <![CDATA[URL used for this script: [https://reqres.in/api/login]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCall4Login -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:36 CST" name="beforeMethod" finished-at="2022-12-29T13:28:36 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="putCall1Update()[pri:0, instance:com.unosquare.APiCalls@57c758ac]" started-at="2022-12-29T13:28:36 CST" name="putCall1Update" finished-at="2022-12-29T13:28:37 CST" duration-ms="537" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Request parameters: {"name":"UserOneHere","job":"UserOneJob"}]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {"name":"UserOneHere","job":"UserOneJob","updatedAt":"2022-12-29T19:26:03.295Z"}]]>
+            </line>
+            <line>
+              <![CDATA[Status code: 200]]>
+            </line>
+            <line>
+              <![CDATA[URL used for this script: [https://reqres.in/api]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- putCall1Update -->
+      </class> <!-- com.unosquare.APiCalls -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

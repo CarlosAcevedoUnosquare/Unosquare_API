@@ -1,0 +1,203 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 29 13:28:26 CST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>10 seconds (10659 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.unosquare.APiCalls.getCall1()'><b>getCall1</b><br>Test class: com.unosquare.APiCalls<br/>
+<a href="#Output-1821581506" onClick='toggleBox("Output-1821581506", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1821581506" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1821581506">
+Sucess 200 validation<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.unosquare.APiCalls@57c758ac</td></tr>
+<tr>
+<td title='com.unosquare.APiCalls.postCall1Create()'><b>postCall1Create</b><br>Test class: com.unosquare.APiCalls<br/>
+<a href="#Output-487778643" onClick='toggleBox("Output-487778643", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-487778643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-487778643">
+Request parameters: {"name":"UserOneHere","job":"UserOneJob"}<br/>
+Response Body: {"name":"UserOneHere","job":"UserOneJob","id":"159","createdAt":"2022-12-29T19:26:00.942Z"}<br/>
+Status code: 201<br/>
+URL used for this script: [https://reqres.in/api/users]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.APiCalls@57c758ac</td></tr>
+<tr>
+<td title='com.unosquare.APiCalls.postCall2Register()'><b>postCall2Register</b><br>Test class: com.unosquare.APiCalls<br/>
+<a href="#Output-1694804085" onClick='toggleBox("Output-1694804085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1694804085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1694804085">
+Request parameters: {"password":"pistol","email":"eve.holt@reqres.in"}<br/>
+Response Body: {"id":4,"token":"QpwL5tke4Pnpja7X4"}<br/>
+Status code: 200<br/>
+URL used for this script: [https://reqres.in/api/register]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.APiCalls@57c758ac</td></tr>
+<tr>
+<td title='com.unosquare.APiCalls.getCall2()'><b>getCall2</b><br>Test class: com.unosquare.APiCalls<br/>
+<a href="#Output-626961003" onClick='toggleBox("Output-626961003", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-626961003" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-626961003">
+Sucess 200 validation<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.APiCalls@57c758ac</td></tr>
+<tr>
+<td title='com.unosquare.APiCalls.getCall4()'><b>getCall4</b><br>Test class: com.unosquare.APiCalls<br/>
+<a href="#Output-2068450031" onClick='toggleBox("Output-2068450031", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2068450031" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2068450031">
+Sucess 200 validation<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.unosquare.APiCalls@57c758ac</td></tr>
+<tr>
+<td title='com.unosquare.APiCalls.postCall3RegisterFailed()'><b>postCall3RegisterFailed</b><br>Test class: com.unosquare.APiCalls<br/>
+<a href="#Output-2022417982" onClick='toggleBox("Output-2022417982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2022417982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2022417982">
+Request parameters: {"email":"eve.holt@reqres.in"}<br/>
+Response Body: {"error":"Missing password"}<br/>
+Expected code for this test is 400.<br/>
+Status code: 400<br/>
+URL used for this script: [https://reqres.in/api/register]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.APiCalls@57c758ac</td></tr>
+<tr>
+<td title='com.unosquare.APiCalls.postCall4Login()'><b>postCall4Login</b><br>Test class: com.unosquare.APiCalls<br/>
+<a href="#Output-1476484694" onClick='toggleBox("Output-1476484694", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1476484694" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1476484694">
+Request parameters: {"password":"cityslicka","email":"eve.holt@reqres.in"}<br/>
+Response Body: {"token":"QpwL5tke4Pnpja7X4"}<br/>
+Status code: 200<br/>
+URL used for this script: [https://reqres.in/api/login]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.APiCalls@57c758ac</td></tr>
+<tr>
+<td title='com.unosquare.APiCalls.putCall1Update()'><b>putCall1Update</b><br>Test class: com.unosquare.APiCalls<br/>
+<a href="#Output-1445384588" onClick='toggleBox("Output-1445384588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1445384588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1445384588">
+Request parameters: {"name":"UserOneHere","job":"UserOneJob"}<br/>
+Response Body: {"name":"UserOneHere","job":"UserOneJob","updatedAt":"2022-12-29T19:26:03.295Z"}<br/>
+Status code: 200<br/>
+URL used for this script: [https://reqres.in/api]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.APiCalls@57c758ac</td></tr>
+<tr>
+<td title='com.unosquare.APiCalls.getCall3()'><b>getCall3</b><br>Test class: com.unosquare.APiCalls<br/>
+<a href="#Output-1168956689" onClick='toggleBox("Output-1168956689", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1168956689" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1168956689">
+Sucess 200 validation<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.APiCalls@57c758ac</td></tr>
+</table><p>
+</body>
+</html>
