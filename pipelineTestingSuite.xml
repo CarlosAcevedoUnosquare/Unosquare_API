@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Default suite">
+  <test name="Default test" verbose="2">
+    <classes>
+      <class name="com.unosquare.FirstAPiTest"/>
+      <class name="com.unosquare.APiCalls"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
