@@ -33,6 +33,19 @@ public class ConfigFileReadFromFile {
 		return returnURL;
 	}
 	
+	public String getJsonValueOf(String path, String URL) {
+		String returnURL = null;
+		JSONParser parser = new JSONParser();
+		try {
+	        Object obj = parser.parse(new FileReader(path));
+	        JSONObject jsonObject = (JSONObject) obj;
+	        returnURL = (String) jsonObject.get(URL);
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+		return returnURL;
+	}
+	
 	 @SuppressWarnings("unchecked")
 	    public static void main(String[] args) {
 		 ConfigFileReadFromFile configFileReadFromFile = new ConfigFileReadFromFile();
